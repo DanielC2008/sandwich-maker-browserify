@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sandwich</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<!-- a section of options for each sandwich part -->
+<!-- the ability to select multiple, or zero, choices for each section (such as turkey and bacon, or "no meat") -->
+	<div id="selectMeatDiv">Meat
+			<input type="checkbox" value="Turkey">Turkey
+			<input type="checkbox" value="Bacon">Bacon
+			<input type="checkbox" value="Salami">Salami
+	</div>
+	<div id="selectVeggieDiv">Veggies
+			<input type="checkbox" value="Lettuce">Lettuce
+			<input type="checkbox" value="Tomato">Tomato
+			<input type="checkbox" value="Corn">Corn
+	</div>	
+	<div id="selectCheeseDiv">Cheese
+			<input type="checkbox" value="Cheddar">Cheddar
+			<input type="checkbox" value="Swiss">Swiss
+			<input type="checkbox" value="Goat">Goat
+	</div>	
+	<div id="selectCondimentsDiv">Condiments
+			<input type="checkbox" value="Mustard">Mustard
+			<input type="checkbox" value="Mayo">Mayo
+			<input type="checkbox" value="Coffee">Coffee
+	</div>		
+<!-- an empty DOM element into which the final sandwich order and its cost will be inserted -->
+	<div id="priceContainer">
+		
+	</div>
+
+
+	<script src="/javascripts/SandwichMaker.js"></script>
+	<script src="/javascripts/meat.js"></script>
+	<script src="/javascripts/veggies.js"></script>
+	<script src="/javascripts/cheese.js"></script>
+	<script src="/javascripts/condiments.js"></script>
+	<script src="/javascripts/interactive.js"></script>
+</body>
+</html>
